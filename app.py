@@ -4,10 +4,6 @@ from langchain_community.utilities import ArxivAPIWrapper, WikipediaAPIWrapper
 from langchain_community.tools import ArxivQueryRun, WikipediaQueryRun, DuckDuckGoSearchRun
 from langchain.agents import initialize_agent, AgentType
 from langchain.callbacks import StreamlitCallbackHandler
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # Arxiv and Wikipedia Wrappers
 arxiv_wrapper = ArxivAPIWrapper(top_k_results=1, doc_content_chars_max=1000)
