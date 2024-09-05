@@ -9,10 +9,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Environment Setup
-st.secrets["LANGCHAIN_TRACING_V2"] = "true"
-st.secrets['LANGCHAIN_API_KEY'] = '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'
-st.secrets['LANGCHAIN_PROJECT'] = 'Langchain - Chat with Search'
+# # Environment Setup
+# st.secrets["LANGCHAIN_TRACING_V2"] = "true"
+# st.secrets['LANGCHAIN_API_KEY'] = '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'
+# st.secrets['LANGCHAIN_PROJECT'] = 'Langchain - Chat with Search'
 
 # Arxiv and Wikipedia Wrappers
 arxiv_wrapper = ArxivAPIWrapper(top_k_results=1, doc_content_chars_max=1000)
