@@ -17,21 +17,21 @@ This project is a Streamlit application that leverages LangChain to create an in
 ##Installation
 To run this project locally, follow these steps:
 - Clone the repository:
-
+  '''
   git clone https://github.com/Pranav160702/Search-Engine-With-Langchain-Tools-And-Agents.git
-
+  '''
 - Install the required dependencies:
-
+  '''
   pip install -r requirements.txt
-  
+  '''
 - Set up your Groq API key:
-
+  '''
   Sign up at Groq and obtain your API key.
-
+  '''
 - Run the Streamlit app:
-
+  '''
   streamlit run app.py
-
+  '''
 - Open your web browser and go to http://localhost:8501 to interact with the chatbot.
 
 - Usage
